@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'limelight';
+    src: local('../fonts/limelight-webfont.ttf'),
+         url('../fonts/limelight-webfont.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'lobster';
+    src: local('../fonts/lobster-webfont.ttf'),
+         url('../fonts/lobster-webfont.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'nunito';
+    	 src: local('../fonts/nunito-regular-webfont.ttf'),
+         url('../fonts/nunito-regular-webfont.ttf') format('truetype');
+}
+body{
+	background: url(../images/bg-body.jpg);
+	font-family: "nunito", arial, verdana;
+}
+h1,h2,h3,h4,ul,a,span{
+	font-family: "lobster";
+	text-decoration: none;
+	list-style: none;
+}
+nav{
+	margin-top: 5px;
+	height: 68px;
+}
+nav ul li{
+	display: inline-block;
+}
+	nav ul li a{
+		color: #94c4c7;
+		margin-left: 45px;
+	}
+		nav ul li a:hover{
+			color: #ffe332;
+		}
+footer{
+	background: url(../images/bg-footer.gif);
+	border-image: url(../images/bg-footer.jpg) 11 0 0 0 stretch  stretch ;
+}
+	footer h2, footer span{
+		color: #ecead9;
+		font-size: 1.1em;
+		font-weight: normal;
+		text-shadow:1px 1px 2px rgba(0,0,0,0.5);
+	}
+		footer h2 span, footer span{
+			font-size: 1.6em;
+		}
+		footer ul{
+			margin-left: 0;
+			padding-left: 0;
+		}
+	footer ul li{
+		display: inline-block;
+	}
+		footer .fb{
+			background: url(../images/icon.png) no-repeat 0 -140px;
+			display: block;
+			height: 38px;
+			width: 40px;
+		}
+			footer .fb:hover{
+			background: url(../images/icon.png) no-repeat 0 -229px;
+		}
+		footer .tw{
+			background: url(../images/icon.png) no-repeat 0 -496px;
+			display: block;
+			height: 38px;
+			width: 40px;
+		}
+				footer .tw:hover{
+			background: url(../images/icon.png) no-repeat 0 -585px;
+		}
+		footer .g{
+			background: url(../images/icon.png) no-repeat 0 -318px;
+			display: block;
+			height: 38px;
+			width: 40px;
+		}
+				footer .g:hover{
+			background: url(../images/icon.png) no-repeat 0 -407px;
+		}
+	footer p{
+		font-family: arial;
+		font-size: 0.9em;
+		color: #f2efd1;
+	}
+		footer p a{
+			color: #f2efd1;
+			font-family: "nunito", arial;
+		}
+form input[placeholder$="Enter Your Email Here..."]{
+	border-radius: 20px;
+	border:2px solid #822619;
+	padding: 2px 15px 0 15px;
+	color: #822619;
+}
+	form input::-webkit-input-placeholder{
+		color: #822619;
+		font-size: 0.8em;
+	}
+	form input[value$="Subscribe Now!"]{
+		border-radius: 4px;
+		border: 2px solid #ebe9d7;
+		background: #822619;
+		color: #fff;
+		font-family: "lobster", arial;
+		padding: 2px 32px;
+		margin: 15px 0 0 30px;
+	}
+.container{
+	margin-top: 50px;
+}
+#logo{
+	background: url(../images/logo.png) no-repeat;
+	height: 84px;
+	width: 513px;
+}
+#content-nav{
+	background:	url(../images/bg-navigation.png) repeat-x;
+}
+#waitress{
+	position: absolute;
+	margin-top: -136px;
+	margin-left: 612px;
+	height: 205px;
+	width: 332px;
+}
+	#waitress img{
+		height: 95%;
+		width: 95%;
+	}
+#content{
+	margin-bottom: 25px;
+}
+.welcome{
+	color: #4c1407;
+}
+	.welcome h1{
+		color: #1b6568;
+	}
+	.welcome a{
+		color: #4c1407;
+		font-family: "nunito";
+		text-decoration: underline;
+	}
+.hotdogs img, .shakes img, .breakfast img{
+	border-radius: 5px;
+	border:6px solid #9a1f14;
+	height: 214px;
+}
+
+.menu-foot a{
+	font-family: arial;
+	font-size: 0.9em;
+	color: #ebe9d7;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: 1px solid #ebe9d7;
+}
+	.menu-foot li:last-child a{
+		border-right: 0;
+	}
